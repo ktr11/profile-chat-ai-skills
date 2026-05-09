@@ -12,7 +12,8 @@ profile-chat-ai-skills/
 │   └── setup.sh            # セットアップスクリプト
 └── skills/
     ├── pca-create-issue/   # issue作成スキル
-    └── pca-create-pr/      # PR作成スキル
+    ├── pca-create-pr/      # PR作成スキル
+    └── pca-split-commits/  # コミット分割スキル
 ```
 
 ## セットアップ
@@ -35,6 +36,7 @@ profile-chat-ai-skills/
 |----------|------|
 | `pca-create-issue` | 会話の内容をもとに `ktr11/profile-chat-ai-docs` に issue を作成する |
 | `pca-create-pr` | 現在のブランチの変更内容をもとに PR を作成する |
+| `pca-split-commits` | 変更済みファイルを役割ごとに分割してコミットする |
 
 ## 新しいスキルの追加
 
